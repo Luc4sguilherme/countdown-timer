@@ -85,7 +85,8 @@ class Timer {
         date.getDate(),
         date.getHours(),
         date.getMinutes(),
-        date.getSeconds()
+        date.getSeconds(),
+        date.getMilliseconds()
       )
     );
   }
