@@ -98,3 +98,60 @@ html {
   color: #010101;
   background-color: #fff;
 }
+
+@media only screen and (max-width: 600px)  {
+  .timer-wrapper {
+    width: 50rem;
+  }
+
+  .clock-column {
+    margin-right: 4rem;
+  }
+
+  .clock-column::after {
+    right: -20px;
+  }
+}
+
+@media only screen and (max-width: 500px)  {
+  .timer-wrapper {
+    width: 40rem;
+  }
+
+  .clock-column {
+    margin-right: 4rem;
+  }
+}
+
+@media only screen and (max-width: 400px)  {
+  .timer-wrapper {
+    width: 30rem;
+  }
+
+  .clock-column {
+    margin-right: 3rem;
+  }
+}
+
+@media only screen and (max-width: 350px)  {
+  .timer-wrapper {
+    width: 20rem;
+  }
+
+  .clock-column {
+    margin-right: 2rem;
+  }
+
+  .clock-timer {
+    font-size: 28px;
+  }
+
+  .clock-label {
+    font-size: 10px;
+  }
+  
+  .clock-column::after {
+    font-size: 28px;
+    right: -10px;
+  }
+}
